@@ -91,20 +91,25 @@
     "todos": "Todos",
     "members": "Members",
     "billing": "Billing",
-    "settings": "Settings"
+    "settings": "Settings",
+    "monitors": "DNS Monitors"
   },
   "Dashboard": {
     "meta_title": "SaaS Template Dashboard",
     "meta_description": "A free and open-source landing page template for your SaaS business, built with Next.js, TypeScript, Shadcn UI, and Tailwind CSS."
   },
   "DashboardIndex": {
-    "title_bar": "Dashboard",
-    "title_bar_description": "Welcome to your dashboard",
-    "message_state_title": "Let's get started",
-    "message_state_description": "You can customize this page by editing the file at <code>dashboard/page.tsx</code>",
-    "message_state_button": "Star on GitHub",
-    "message_state_alternative": "Need advanced features? Multi-tenancy & Teams, Roles & Permissions, Shadcn UI,\nEnd-to-End Typesafety with oRPC, Stripe Payment, Light / Dark mode. Try <url></url>.",
-    "max_message": "Or, need a Self-hosted auth stack (Better Auth)? Try <url></url>."
+    "title_bar": "DNS Monitoring Overview",
+    "title_bar_description": "Track DNS changes across customer domains.",
+    "stat_total": "Total monitors",
+    "stat_active": "Active monitors",
+    "stat_last_check": "Last check",
+    "cta_title": "Start monitoring a new domain",
+    "cta_description": "Add domains, pick record types, and run on-demand checks.",
+    "cta_button": "Manage monitors",
+    "recent_changes_title": "Recent changes",
+    "recent_changes_description": "Latest DNS changes detected for your organization.",
+    "recent_changes_empty": "No DNS changes detected yet."
   },
   "UserProfile": {
     "title_bar": "User Profile",
@@ -163,5 +168,36 @@
     "message_title": "Message",
     "message_description": "Enter a detailed message for your todo.",
     "submit_button": "Submit"
+  },
+  "DnsMonitors": {
+    "meta_title": "DNS Monitors",
+    "meta_description": "Manage DNS monitors, check records, and review change history.",
+    "title_bar": "DNS Monitors",
+    "title_bar_description": "Monitor DNS record changes per customer organization.",
+    "new_monitor_title": "Create a monitor",
+    "new_monitor_description": "Add domains and record types to watch for changes.",
+    "check_all": "Check all monitors",
+    "domain_label": "Domain",
+    "record_type_label": "Record type",
+    "create_monitor": "Add monitor",
+    "table_domain": "Domain",
+    "table_type": "Type",
+    "table_status": "Status",
+    "table_last_checked": "Last checked",
+    "table_last_change": "Last change",
+    "table_records": "Latest records",
+    "table_actions": "Actions",
+    "empty_state": "No monitors yet. Add your first domain above.",
+    "status_active": "Active",
+    "status_paused": "Paused",
+    "no_records": "No records fetched yet",
+    "more_records": "+{count} more",
+    "check_now": "Check now",
+    "pause": "Pause",
+    "resume": "Resume",
+    "delete": "Delete",
+    "changes_title": "Change history",
+    "changes_description": "A log of detected DNS changes for your organization.",
+    "no_changes": "No DNS changes recorded yet."
   }
 }

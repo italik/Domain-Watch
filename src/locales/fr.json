@@ -91,20 +91,25 @@
     "todos": "Todos",
     "members": "Membres",
     "billing": "Facturation",
-    "settings": "Réglages"
+    "settings": "Réglages",
+    "monitors": "Surveillance DNS"
   },
   "Dashboard": {
     "meta_title": "Tableau de bord du SaaS Template",
     "meta_description": "Un template gratuit et open-source de landing page pour votre entreprise SaaS, construit avec Next.js, TypeScript, Shadcn UI et Tailwind CSS."
   },
   "DashboardIndex": {
-    "title_bar": "Tableau de bord",
-    "title_bar_description": "Bienvenue sur votre tableau de bord",
-    "message_state_title": "C'est parti",
-    "message_state_description": "Vous pouvez personnaliser cette page en modifiant le fichier dans <code>dashboard/page.tsx</code>",
-    "message_state_button": "Mettez une étoile sur GitHub",
-    "message_state_alternative": "Vous voulez plus de fonctionnalités et les dernières nouveautés de Next.js 16 ? Essayez <url></url>.",
-    "max_message": "Ou, besoin d'une pile d'authentification auto-hébergée (Better Auth) ? Essayez <url></url>."
+    "title_bar": "Aperçu de la surveillance DNS",
+    "title_bar_description": "Suivez les changements DNS sur les domaines clients.",
+    "stat_total": "Moniteurs totaux",
+    "stat_active": "Moniteurs actifs",
+    "stat_last_check": "Dernière vérification",
+    "cta_title": "Surveiller un nouveau domaine",
+    "cta_description": "Ajoutez des domaines, choisissez les types d’enregistrements et lancez des vérifications à la demande.",
+    "cta_button": "Gérer les moniteurs",
+    "recent_changes_title": "Changements récents",
+    "recent_changes_description": "Derniers changements DNS détectés pour votre organisation.",
+    "recent_changes_empty": "Aucun changement DNS détecté pour le moment."
   },
   "UserProfile": {
     "title_bar": "Profil utilisateur",
@@ -163,5 +168,36 @@
     "message_title": "Message",
     "message_description": "Entrez un message détaillé pour votre todo.",
     "submit_button": "Envoyer"
+  },
+  "DnsMonitors": {
+    "meta_title": "Moniteurs DNS",
+    "meta_description": "Gérez les moniteurs DNS, vérifiez les enregistrements et consultez l’historique des changements.",
+    "title_bar": "Moniteurs DNS",
+    "title_bar_description": "Surveillez les changements d’enregistrements DNS par organisation cliente.",
+    "new_monitor_title": "Créer un moniteur",
+    "new_monitor_description": "Ajoutez des domaines et types d’enregistrements à surveiller.",
+    "check_all": "Vérifier tous les moniteurs",
+    "domain_label": "Domaine",
+    "record_type_label": "Type d’enregistrement",
+    "create_monitor": "Ajouter un moniteur",
+    "table_domain": "Domaine",
+    "table_type": "Type",
+    "table_status": "Statut",
+    "table_last_checked": "Dernière vérification",
+    "table_last_change": "Dernier changement",
+    "table_records": "Enregistrements récents",
+    "table_actions": "Actions",
+    "empty_state": "Aucun moniteur pour le moment. Ajoutez votre premier domaine ci-dessus.",
+    "status_active": "Actif",
+    "status_paused": "En pause",
+    "no_records": "Aucun enregistrement récupéré",
+    "more_records": "+{count} de plus",
+    "check_now": "Vérifier",
+    "pause": "Mettre en pause",
+    "resume": "Reprendre",
+    "delete": "Supprimer",
+    "changes_title": "Historique des changements",
+    "changes_description": "Journal des changements DNS détectés pour votre organisation.",
+    "no_changes": "Aucun changement DNS enregistré pour le moment."
   }
 }
